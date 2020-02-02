@@ -1,0 +1,213 @@
+body{
+    Background-image: Linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+                    Linear-gradient(127deg, black, black 70.71%),
+                    Linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+
+    margin : 0 ; 
+}
+
+/* ---------------------navbar section start 4 the 3 pgs------------*/
+nav{
+    height: 70px;
+    display: flex; 
+    
+    align-items: center; 
+}
+.logo{
+    height: 100%;
+    display: flex; 
+    align-items: center;
+}
+.navbar-links{
+   
+    margin: 0 0 0 18%; 
+}
+.nav-item{
+    
+    display: inline-block;
+}
+
+.nav-item a{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+.nav-item a:hover{
+   
+    color: red;
+}
+
+/*------------------------courses section start-------------*/
+
+.header{
+    height: 450px;
+    background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/webdev3.png");
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.header h1{
+    margin-top: 0;
+    font-size: 6em;
+    font-family: 'Bree Serif', serif;
+    color: #fff;
+    position: relative; 
+    top: 40%; 
+    text-align: center;
+    text-shadow: 5px 2px rgb(12, 11, 11);
+}
+
+.courses{
+    margin-top: 5%;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.row img{
+    margin-right: 4% ;
+}
+
+.courses-form{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.courses-form h4{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 30px;
+}
+
+.buttons{
+    margin-bottom: 20px;
+}
+
+
+/*--------------------------- Contact section start--------------------------*/ 
+
+.input-groupe{
+    text-align: center;
+    color: white;
+}
+
+.input-contact{
+    display: block;
+    margin: 10px auto;
+    width: 20%;
+    height: 20px;
+    border-radius:5px ;
+}
+
+.contact-form{
+    margin: 30px 0 ;
+}
+
+.submit{
+    width: 80px;
+    height: 29px;
+    margin-top: 10px;
+    border-radius: 3px ;
+    background-color: #337ab7 ;
+    border-color: #337ab7;
+    color: white;
+}
+
+#ulNav{
+    margin-left:23%;
+}
+
+#ulNav>li{
+    margin-left:70px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+#ulNav>li>a{
+    color:white !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#ulNav>li>a:hover {
+    color:red !important;
+}
+body{
+    background-image:linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, black, black 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+.navbar{
+    background-color: transparent !important;
+    border-color:transparent !important;
+}
+
+.btnCourses1Hover{
+    display:inline !important;
+    opacity: 1 !important;
+}
+
+
+
+h1{
+    color:white !important;
+}
+
+
+
+.cover {
+    width: 100%;
+    height: 450px;
+    padding: 50px;
+    background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/webdev3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 87px;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+}
+
+.cover .heading {
+    font-size: 6em;
+    font-family: 'Bree Serif', serif;
+    color: #fff;
+    position: relative;
+    top: 40%;
+   
+    text-shadow: 5px 2px rgb(12, 11, 11);
+}
+
+
+
+.heading {
+    color: rgb(34, 50, 95);
+    font-size: 4em;
+    font-family: 'Bree Serif', serif;
+    margin: 30px 0 40px 500px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+label{
+    color:white !important;
+}
+
+#fade{
+    display:none;
+}
+
+#contactForm>div>input{
+    width:250px;
+}
+#contactForm>div>select{
+    width:250px;
+}
